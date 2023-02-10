@@ -27,6 +27,7 @@ p {
 }
 
 .header-container {
+  margin: 0 10px;
   padding: 25px 10% 50px 10%;
   display: flex;
   justify-content: center;
@@ -93,6 +94,7 @@ p {
 }
 
 .main-block {
+  margin: 0 10px;
   display: flex;
   flex-direction: column;
 }
@@ -106,8 +108,6 @@ p {
 
 .aside-container {
   box-sizing: border-box;
-  padding: 0 10px;
-
 }
 
 section {
@@ -123,7 +123,7 @@ section {
   flex-direction: column;
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 10px 40px;
+  padding: 20px 0 40px;
   border-bottom: 2px solid rgb(215, 215, 215);
 }
 
@@ -332,7 +332,7 @@ section {
 }
 
 .aside-products-container {
-  margin: 30px 10px 0;
+  margin: 30px 0 0;
   margin-bottom: 70px;
 }
 
@@ -429,7 +429,7 @@ section {
 }
 
 .trending-block-container {
-  margin: 30px 0 20px;
+  margin: 30px 10px 20px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -503,25 +503,6 @@ section {
   text-transform: uppercase;
 }
 
-.mobile-menu-link {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-
-.mobile-menu {
-  display: none;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  right: 10px;
-  top: 10px;
-  z-index: 3;
-
-  background-color: white;
-  border: 1px solid black;
-}
-
 .products-section {
   margin: 0 0 30px;
 }
@@ -552,6 +533,7 @@ section {
   }
 
   .header-container {
+    margin: 0 20px;
     height: 250px;
   }
 
@@ -561,6 +543,10 @@ section {
     display: flex;
   }
 
+  .trending-block-container {
+    margin: 30px 20px 20px;
+  }
+  
   .trending-items-container-1, .trending-items-container-2, .trending-items-container-3, .trending-items-container-4 {
     width: 50%;
   }
@@ -570,6 +556,7 @@ section {
   }
 
   .main-block {
+    margin: 0;
     flex-direction: row;
   }
   
@@ -590,7 +577,7 @@ section {
   }
 
   .aside-products-list-container {
-    padding: 0 20px 0;
+    padding: 0 10px 0;
     display: flex;
     flex-wrap: wrap;
   }
@@ -607,7 +594,7 @@ section {
   }
 
   .footer-container {
-    margin: 0 30px;
+    margin: 0 20px;
   }
 }
 
@@ -626,11 +613,8 @@ section {
   }
 
   .header-container {
+    margin: 0;
     padding: 0;
-  }
-
-  .mobile-menu-link {
-    display: none;
   }
 
   .header-container-menu {
@@ -649,6 +633,10 @@ section {
     display: flex;
   }
 
+  .trending-block-container {
+    margin: 30px 0px 20px;
+  }
+
   .trending-items-container-1, .trending-items-container-2, .trending-items-container-3, .trending-items-container-4 {
     width: 25%;
   }
@@ -658,6 +646,7 @@ section {
   }
 
   .main-block {
+    margin: 0;
     flex-direction: row;
   }
   
